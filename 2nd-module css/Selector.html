@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selector</title>
+<style>
+    p{
+        /* color: red; */
+    }
+#hi,li{
+    font-size: 26px;
+}
+.koi,.tea{background-color: aqua; width: 50%;}
+.bol,.tea{
+    font-weight: 900;
+}
+*{
+    margin: 0;
+}
+input[type="password"]{
+    color: red;
+}
+.css{color: blue; font-size: larger;font-weight: 900;}
+.all{background-color: aqua;}
+
+
+</style>
+
+
+</head>
+<body>
+    <h3>Explore Mixed selector</h3>
+    <p class="koi">My first <span class="css">line css</span> </p>
+    <p class="koi bol">My first line css </p>
+    <p>My first line css </p>
+    <p id="hi">My first line css </p>
+    <p>My first line css </p>
+    <p class="bol">My first line css </p>
+    <p class="tea">My first line css </p>
+    <p>My first line css </p>
+
+<ol>
+    <li>Element selector</li>
+    <li>ID selector</li>
+    <li class="bol">Class selector </li>
+    <li class="tea">Universal</li>
+    <li></li>
+    <li></li>
+</ol><br><br>
+<form action="">
+
+<input type="text"><br><br>
+<input type="password" name="">
+
+
+</form>
+<div class="all">
+
+<h3>My blog  </h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo eius veniam, consequatur voluptatem doloribus soluta recusandae ipsa optio consequuntur adipisci distinctio possimus iste corrupti dicta quisquam molestias impedit fugiat corporis.</p>
+
+
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum beatae ex magnam earum dolorum, quam possimus nihil distinctio ea voluptatum consequatur assumenda expedita quaerat nemo! Dolorem consectetur provident quas blanditiis?</p>
+</div>
+
+
+</body>
+</html>
